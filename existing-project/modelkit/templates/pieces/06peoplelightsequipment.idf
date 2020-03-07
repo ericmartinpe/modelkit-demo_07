@@ -1,0 +1,245 @@
+
+!-   ===========  ALL OBJECTS IN CLASS: PEOPLE ===========
+
+  People,
+    Core_ZN,                 !- Name
+    Core_ZN,                 !- Zone or ZoneList Name
+    BLDG_OCC_SCH,            !- Number of People Schedule Name
+    Area/Person,             !- Number of People Calculation Method
+    ,                        !- Number of People
+    ,                        !- People per Zone Floor Area {person/m2}
+    16.5880764430522,        !- Zone Floor Area per Person {m2/person}
+    0.3000,                  !- Fraction Radiant
+    AUTOCALCULATE,           !- Sensible Heat Fraction
+    ACTIVITY_SCH,            !- Activity Level Schedule Name
+    ,                        !- Carbon Dioxide Generation Rate {m3/s-W}
+    No,                      !- Enable ASHRAE 55 Comfort Warnings
+    ZoneAveraged;            !- Mean Radiant Temperature Calculation Type
+
+  People,
+    Perimeter_ZN_1,          !- Name
+    Perimeter_ZN_1,          !- Zone or ZoneList Name
+    BLDG_OCC_SCH,            !- Number of People Schedule Name
+    Area/Person,             !- Number of People Calculation Method
+    ,                        !- Number of People
+    ,                        !- People per Zone Floor Area {person/m2}
+    16.5880764430522,        !- Zone Floor Area per Person {m2/person}
+    0.3000,                  !- Fraction Radiant
+    AUTOCALCULATE,           !- Sensible Heat Fraction
+    ACTIVITY_SCH,            !- Activity Level Schedule Name
+    ,                        !- Carbon Dioxide Generation Rate {m3/s-W}
+    No,                      !- Enable ASHRAE 55 Comfort Warnings
+    ZoneAveraged;            !- Mean Radiant Temperature Calculation Type
+
+  People,
+    Perimeter_ZN_2,          !- Name
+    Perimeter_ZN_2,          !- Zone or ZoneList Name
+    BLDG_OCC_SCH,            !- Number of People Schedule Name
+    Area/Person,             !- Number of People Calculation Method
+    ,                        !- Number of People
+    ,                        !- People per Zone Floor Area {person/m2}
+    16.5880764430522,        !- Zone Floor Area per Person {m2/person}
+    0.3000,                  !- Fraction Radiant
+    AUTOCALCULATE,           !- Sensible Heat Fraction
+    ACTIVITY_SCH,            !- Activity Level Schedule Name
+    ,                        !- Carbon Dioxide Generation Rate {m3/s-W}
+    No,                      !- Enable ASHRAE 55 Comfort Warnings
+    ZoneAveraged;            !- Mean Radiant Temperature Calculation Type
+
+  People,
+    Perimeter_ZN_3,          !- Name
+    Perimeter_ZN_3,          !- Zone or ZoneList Name
+    BLDG_OCC_SCH,            !- Number of People Schedule Name
+    Area/Person,             !- Number of People Calculation Method
+    ,                        !- Number of People
+    ,                        !- People per Zone Floor Area {person/m2}
+    16.5880764430522,        !- Zone Floor Area per Person {m2/person}
+    0.3000,                  !- Fraction Radiant
+    AUTOCALCULATE,           !- Sensible Heat Fraction
+    ACTIVITY_SCH,            !- Activity Level Schedule Name
+    ,                        !- Carbon Dioxide Generation Rate {m3/s-W}
+    No,                      !- Enable ASHRAE 55 Comfort Warnings
+    ZoneAveraged;            !- Mean Radiant Temperature Calculation Type
+
+  People,
+    Perimeter_ZN_4,          !- Name
+    Perimeter_ZN_4,          !- Zone or ZoneList Name
+    BLDG_OCC_SCH,            !- Number of People Schedule Name
+    Area/Person,             !- Number of People Calculation Method
+    ,                        !- Number of People
+    ,                        !- People per Zone Floor Area {person/m2}
+    16.5880764430522,        !- Zone Floor Area per Person {m2/person}
+    0.3000,                  !- Fraction Radiant
+    AUTOCALCULATE,           !- Sensible Heat Fraction
+    ACTIVITY_SCH,            !- Activity Level Schedule Name
+    ,                        !- Carbon Dioxide Generation Rate {m3/s-W}
+    No,                      !- Enable ASHRAE 55 Comfort Warnings
+    ZoneAveraged;            !- Mean Radiant Temperature Calculation Type
+
+!-   ===========  ALL OBJECTS IN CLASS: LIGHTS ===========
+
+  Lights,
+    Core_ZN_Lights,          !- Name
+    Core_ZN,                 !- Zone or ZoneList Name
+    BLDG_LIGHT_SCH,          !- Schedule Name
+    Watts/Area,              !- Design Level Calculation Method
+    ,                        !- Lighting Level {W}
+    8.503489229,             !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    0.0000,                  !- Return Air Fraction
+    0.7000,                  !- Fraction Radiant
+    0.2000,                  !- Fraction Visible
+    1.0000,                  !- Fraction Replaceable
+    General,                 !- End-Use Subcategory
+    No;                      !- Return Air Fraction Calculated from Plenum Temperature
+
+  Lights,
+    Perimeter_ZN_1_Lights,   !- Name
+    Perimeter_ZN_1,          !- Zone or ZoneList Name
+    BLDG_LIGHT_SCH,          !- Schedule Name
+    Watts/Area,              !- Design Level Calculation Method
+    ,                        !- Lighting Level {W}
+    8.503489229,             !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    0.0000,                  !- Return Air Fraction
+    0.7000,                  !- Fraction Radiant
+    0.2000,                  !- Fraction Visible
+    1.0000,                  !- Fraction Replaceable
+    General,                 !- End-Use Subcategory
+    No;                      !- Return Air Fraction Calculated from Plenum Temperature
+
+  Lights,
+    Perimeter_ZN_2_Lights,   !- Name
+    Perimeter_ZN_2,          !- Zone or ZoneList Name
+    BLDG_LIGHT_SCH,          !- Schedule Name
+    Watts/Area,              !- Design Level Calculation Method
+    ,                        !- Lighting Level {W}
+    8.503489229,             !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    0.0000,                  !- Return Air Fraction
+    0.7000,                  !- Fraction Radiant
+    0.2000,                  !- Fraction Visible
+    1.0000,                  !- Fraction Replaceable
+    General,                 !- End-Use Subcategory
+    No;                      !- Return Air Fraction Calculated from Plenum Temperature
+
+  Lights,
+    Perimeter_ZN_3_Lights,   !- Name
+    Perimeter_ZN_3,          !- Zone or ZoneList Name
+    BLDG_LIGHT_SCH,          !- Schedule Name
+    Watts/Area,              !- Design Level Calculation Method
+    ,                        !- Lighting Level {W}
+    8.503489229,             !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    0.0000,                  !- Return Air Fraction
+    0.7000,                  !- Fraction Radiant
+    0.2000,                  !- Fraction Visible
+    1.0000,                  !- Fraction Replaceable
+    General,                 !- End-Use Subcategory
+    No;                      !- Return Air Fraction Calculated from Plenum Temperature
+
+  Lights,
+    Perimeter_ZN_4_Lights,   !- Name
+    Perimeter_ZN_4,          !- Zone or ZoneList Name
+    BLDG_LIGHT_SCH,          !- Schedule Name
+    Watts/Area,              !- Design Level Calculation Method
+    ,                        !- Lighting Level {W}
+    8.503489229,             !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    0.0000,                  !- Return Air Fraction
+    0.7000,                  !- Fraction Radiant
+    0.2000,                  !- Fraction Visible
+    1.0000,                  !- Fraction Replaceable
+    General,                 !- End-Use Subcategory
+    No;                      !- Return Air Fraction Calculated from Plenum Temperature
+
+!-   ===========  ALL OBJECTS IN CLASS: ELECTRICEQUIPMENT ===========
+
+  ElectricEquipment,
+    Core_ZN_MiscPlug_Equip,  !- Name
+    Core_ZN,                 !- Zone or ZoneList Name
+    BLDG_EQUIP_SCH,          !- Schedule Name
+    Watts/Area,              !- Design Level Calculation Method
+    ,                        !- Design Level {W}
+    6.78,                    !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    ,                        !- Fraction Latent
+    ,                        !- Fraction Radiant
+    ,                        !- Fraction Lost
+    General;                 !- End-Use Subcategory
+
+  ElectricEquipment,
+    Perimeter_ZN_1_MiscPlug_Equip,  !- Name
+    Perimeter_ZN_1,          !- Zone or ZoneList Name
+    BLDG_EQUIP_SCH,          !- Schedule Name
+    Watts/Area,              !- Design Level Calculation Method
+    ,                        !- Design Level {W}
+    6.78,                    !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    ,                        !- Fraction Latent
+    ,                        !- Fraction Radiant
+    ,                        !- Fraction Lost
+    General;                 !- End-Use Subcategory
+
+  ElectricEquipment,
+    Perimeter_ZN_2_MiscPlug_Equip,  !- Name
+    Perimeter_ZN_2,          !- Zone or ZoneList Name
+    BLDG_EQUIP_SCH,          !- Schedule Name
+    Watts/Area,              !- Design Level Calculation Method
+    ,                        !- Design Level {W}
+    6.78,                    !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    ,                        !- Fraction Latent
+    ,                        !- Fraction Radiant
+    ,                        !- Fraction Lost
+    General;                 !- End-Use Subcategory
+
+  ElectricEquipment,
+    Perimeter_ZN_3_MiscPlug_Equip,  !- Name
+    Perimeter_ZN_3,          !- Zone or ZoneList Name
+    BLDG_EQUIP_SCH,          !- Schedule Name
+    Watts/Area,              !- Design Level Calculation Method
+    ,                        !- Design Level {W}
+    6.78,                    !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    ,                        !- Fraction Latent
+    ,                        !- Fraction Radiant
+    ,                        !- Fraction Lost
+    General;                 !- End-Use Subcategory
+
+  ElectricEquipment,
+    Perimeter_ZN_4_MiscPlug_Equip,  !- Name
+    Perimeter_ZN_4,          !- Zone or ZoneList Name
+    BLDG_EQUIP_SCH,          !- Schedule Name
+    Watts/Area,              !- Design Level Calculation Method
+    ,                        !- Design Level {W}
+    6.78,                    !- Watts per Zone Floor Area {W/m2}
+    ,                        !- Watts per Person {W/person}
+    ,                        !- Fraction Latent
+    ,                        !- Fraction Radiant
+    ,                        !- Fraction Lost
+    General;                 !- End-Use Subcategory
+
+
+    !-   ===========  ALL OBJECTS IN CLASS: EXTERIOR:LIGHTS ===========
+
+      Exterior:Lights,
+        Exterior_Lights_a,       !- Name
+        Exterior_lighting_schedule_a,  !- Schedule Name
+        50.7,                    !- Design Level {W}
+        AstronomicalClock,       !- Control Option
+        General;                 !- End-Use Subcategory
+
+      Exterior:Lights,
+        Exterior_Lights_b,       !- Name
+        Exterior_lighting_schedule_b_2016,  !- Schedule Name
+        115.1,                   !- Design Level {W}
+        AstronomicalClock,       !- Control Option
+        General;                 !- End-Use Subcategory
+
+      Exterior:Lights,
+        Exterior_Lights_c,       !- Name
+        Exterior_lighting_schedule_c_2016,  !- Schedule Name
+        445.5,                   !- Design Level {W}
+        AstronomicalClock,       !- Control Option
+        General;                 !- End-Use Subcategory
