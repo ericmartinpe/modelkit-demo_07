@@ -1,7 +1,6 @@
 <%#INTERFACE
-parameter "name", :default=>"This Building Name"
-parameter "north_axis", :default=>30
-parameter "location", :default=>"CZ01"
+parameter "thickness", :default=>0.15
+
 %>
 
   Version,8.9;
@@ -841,7 +840,7 @@ parameter "location", :default=>"CZ01"
   Material,
     Std Wood 6inch,          !- Name
     MediumSmooth,            !- Roughness
-    0.15,                    !- Thickness {m}
+    <%= thickness %>,                    !- Thickness {m}
     0.12,                    !- Conductivity {W/m-K}
     540.0000,                !- Density {kg/m3}
     1210,                    !- Specific Heat {J/kg-K}
